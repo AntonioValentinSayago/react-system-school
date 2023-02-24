@@ -1,14 +1,14 @@
 <!-- HEADER -->
 <br />
 <p align="center">
- <a href="https://github.com/Deathmajorasmask/Tahduth-Chat">
+ <a href="https://github.com/AntonioValentinSayago/.net6_angular_crud">
     <img src="public/img/Logo.png" alt="Logo" width="160" height="160">
  </a>
 
-  <h3 align="center">Tahduth Chat</h3>
+  <h3 align="center">Crud Angular / .NET 6.0</h3>
 
   <p align="center">
-    An awesome chat created in node.js !
+    An awesome app with Aangular - .NET !
     <br />
   </p>
 </p>
@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][screenshot]](https://github.com/Deathmajorasmask/Cryptocat)
+[![Product Name Screen Shot][screenshot]](https://github.com/AntonioValentinSayago/.net6_angular_crud)
 
 It is a chat inspired by Whatsapp, developed in Node.js & mysql.
 
@@ -83,9 +83,9 @@ You will have to download.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Deathmajorasmask/Tahduth-Chat.git
+   git clone https://github.com/AntonioValentinSayago/.net6_angular_crud.git
    ```
-2. Move in console to Tahduth-Chat folder.
+2. Move in console to .net6_angular_crud folder.
 
 3. Install dependencies.
    ```sh
@@ -112,7 +112,7 @@ You will have to download.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/Deathmajorasmask/Tahduth-Chat/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/AntonioValentinSayago/.net6_angular_crud/issues) for a list of proposed features (and known issues).
 
 
 
@@ -141,7 +141,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Deathmajorasmask - zijaham_link@hotmail.com
 
-Project Link: [https://github.com/Deathmajorasmask/Tahduth-Chat](https://github.com/Deathmajorasmask/Tahduth-Chat)
+Project Link: [https://github.com/AntonioValentinSayago/.net6_angular_crud](https://github.com/AntonioValentinSayago/.net6_angular_crud)
 
 
 
