@@ -11,15 +11,26 @@ Este proyecto es un sistema escolar diseñado para kinder y primaria, desarrolla
 
 ## Requisitos
 
-- Node.js (versión X.X.X)
-- MySQL (versión X.X.X)
+- Node.js (versión 19.4.0)
+- MySQL (versión 8.0)
 
 ## Instalación
 
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/AntonioValentinSayago/react-system-school.git
+
+3. Desarga las dependencias
+
+    ```bash
+    npm install
+
+3. Inicia el servidor de desarrollo:
+
+    ```bash
+    npm run dev
+
 
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
