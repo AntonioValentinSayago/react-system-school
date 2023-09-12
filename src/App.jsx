@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import CompStudent from './Components/Student/CompStudent'
+import './index.css'
 
 function App() {
 
