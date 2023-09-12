@@ -13,6 +13,7 @@ Este proyecto es un sistema escolar diseñado para kinder y primaria, desarrolla
 
 - Node.js (versión 19.4.0)
 - MySQL (versión 8.0)
+- Tailwind (versión 3)
 
 ## Instalación
 
@@ -30,8 +31,6 @@ Este proyecto es un sistema escolar diseñado para kinder y primaria, desarrolla
 
     ```bash
     npm run dev
-
-
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
