@@ -1,4 +1,4 @@
-import CompStudent from './Components/Student/CompStudent'
+import { Home } from './pages/Home'
 import './index.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <CompStudent/>
+      <Home />
     </>
   )
 }
