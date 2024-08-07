@@ -1,4 +1,4 @@
-# Sistema Escolar Emanuel
+# Sistema Escolar Emanuel 1.0.0
 
 Este proyecto es un sistema escolar diseñado para kinder y primaria, desarrollado con React y Vite como herramientas de construcción y MySQL como base de datos.
 
