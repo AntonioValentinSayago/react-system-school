@@ -1,5 +1,5 @@
 {
-  "name": "react-system-school",
+  "name": "MobileAppConsole",
   "version": "1.0.0",
   "description": "Este proyecto es un sistema escolar diseñado para kinder y primaria, desarrollado con React y Vite como herramientas de construcción y MySQL como base de datos.",
   "main": "index.js",
