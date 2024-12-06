@@ -11,9 +11,7 @@ const headerMessage = `
 ---------------------    
 `;
 
-for (let i = 0; i <= limit; i++) {
-    outputMessage += `${base} x ${i} = ${ base * i }\n`
-}
+
 outputMessage = headerMessage + outputMessage;
 if( showTable ) console.log(outputMessage);
 
