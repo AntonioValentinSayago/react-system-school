@@ -15,10 +15,14 @@ export class SaveFile implements SaveFileUseCase {
     constructor(){}
 
     execute({ fileContent, destination, fileName }: Options) : boolean {
+        try {
+            fs.mkdirSync(destination, {recursive: true})
 
-        fs.mkdirSync(des, {recursive: true})
-
-        fs.writeFileSync(`${destination}/tabla-${base}.txt`, outputMessage);
-        console.log('File Created');
+            fs.writeFileSync(`${destination}/${fileName}.txt`, fileContent);
+            console.log('File Created');      
+        } catch (error) {
+            console.log(error);
+            return false
+        }
     }
 }
