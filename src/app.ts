@@ -8,10 +8,8 @@ console.log(yarg);
     await main();
 })();
 
-
 async function main(){
 
-    const { b: base, l: limit, s: showTable} = yarg
-    console.log(yarg);
-    ServerApp.run({ base, limit, showTable });
+    const { b: base, l: limit, s: showTable, n:fileName, d:fileDestination } = yarg
+    ServerApp.run({ base, limit, showTable, fileName, fileDestination });
 }
