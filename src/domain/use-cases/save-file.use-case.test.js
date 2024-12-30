@@ -42,6 +42,16 @@ describe('SaveFileUseCase', () => {
         expect( result ).toBe( true)
         expect( fileExists ).toBe( true)
         expect( fileContent ).toBe( options.fileContent )
+    })
 
+    test('shoul return false if derectory coul not be created', () => {
+        
+        const saveFile = new SaveFile();
+        const mkdirSpy = jest.spyOn(fs, 'mkdirSync').mockImplementation(
+            () => { throw new Error('error')}
+        )
+
+        const result = saveFile.execute( customOptions )
+        expect( result ).toBe( false )
     })
 });
